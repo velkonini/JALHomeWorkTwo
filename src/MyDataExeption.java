@@ -1,6 +1,6 @@
 public class MyDataExeption extends Exception {
-    MyDataExeption(String strOne){
-        super(strOne);
+    MyDataExeption(String message){
+        super(message);
     }
 
 }

@@ -1,6 +1,6 @@
 public class MySizeExeption extends Exception{
-    MySizeExeption(String strTwo){
-        super(strTwo);
+    MySizeExeption(String message){
+        super(message);
     }
 
 }
