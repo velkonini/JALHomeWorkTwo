@@ -11,10 +11,10 @@ public class Main {
         try {
             try {
                 int sum = MyArr.getArr(array);
-            } catch (MySizeExeption e) {
+            } catch (MySizeException e) {
                 e.printStackTrace();
             }
-        } catch (MyDataExeption e) {
+        } catch (MyDataException e) {
             System.out.println(e.getMessage());
         }
 
